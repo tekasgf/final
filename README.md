@@ -17,7 +17,6 @@ This project is an **interactive AI chatbot** capable of handling queries, maint
 ### 1️⃣ **Install Dependencies**
 Ensure you have **Python 3.10+** installed. Then install dependencies:
 
-```bash
 pip install -r requirements.txt
 
 Configure Settings
