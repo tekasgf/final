@@ -19,21 +19,21 @@ Ensure you have **Python 3.10+** installed. Then install dependencies:
 
 pip install -r requirements.txt
 
-Configure Settings
+### **Configure Settings **
 
 Edit the config.py file to add your Telegram Bot Token and Chat ID:
 
 TELEGRAM_BOT_TOKEN = "YOUR_TOKEN"
 TELEGRAM_CHAT_ID = "YOUR_CHAT_ID"
 
-Run the Application
+### **Run the Application**
 After setup, launch the app:
 
 streamlit run app.py
 
 Now open your browser and visit http://localhost:8501.
 
-Project Structure
+## Project Structure
 📂 final_project/
 │── 📜 app.py              # Main Streamlit app
 │── 📜 config.py           # Configuration file
@@ -44,7 +44,7 @@ Project Structure
 │   │── 📜 memory.py        # Memory management (ChromaDB)
 │   │── 📜 telegram_bot.py  # Telegram notifications
 
-Features
+## Features
 
 📌 1. Query Processing
 User queries are processed using LangChain (chains.py).
@@ -56,7 +56,7 @@ Long-term memory with ChromaDB for storing chat history.
 The bot sends alerts if a query contains important keywords (e.g., "urgent", "error").
 Uses telegram_bot.py and asyncio.run() for async messaging.
 
-🔗 Technologies Used
+## 🔗 Technologies Used
 
 Streamlit – Interactive UI
 LangChain – Data processing and memory management
@@ -64,18 +64,18 @@ Ollama LLM – AI-powered response generation
 ChromaDB – Long-term memory storage
 Telegram Bot API – Real-time notifications
 
-💡 Future Improvements
+## 💡 Future Improvements
 
 Improve important query detection using AI.
 Add chat history visualization in Streamlit.
 Enhance memory handling with more context-aware processing.
 
-Authors
+### Authors
 
 Developer: Talgat Sagatov
 Course / Project: Advanced Programming
 
-Contact
+### Contact
 🔗 GitHub: github.com/tekasgf
 
 
