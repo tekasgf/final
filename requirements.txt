@@ -1,0 +1,5 @@
+streamlit
+chromadb
+langchain
+ollama
+python-telegram-bot
